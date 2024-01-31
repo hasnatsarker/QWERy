@@ -1,0 +1,364 @@
+/*--------- common css start---------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1324px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+/*--------- common css end---------- */
+/*--------- navbar start---------- */
+nav{
+    position: absolute !important;
+    width: 100%;
+}
+.navbar_list{
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar_list_link{
+    color:#FFFFFF; 
+    transition: .4s; 
+}
+.navbar_list_link:hover{
+    color:#000000;
+
+}
+.active{
+    color: #000000;
+}
+/*--------- navbar end---------- */
+/*--------- banner start---------- */
+#banner{
+    background: url('../images/banner.png') no-repeat center;
+    background-size: cover;
+}
+.banner_subtitle{
+    width: 517px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    color: #FFC178;
+    text-transform: uppercase;
+}
+.banner_title{
+    margin-top: 38px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.banner_sectitle{
+    font-weight: 400;
+    font-size: 88px;
+    color: #FFFFFF;
+    line-height: 100px;
+}
+.banner_main{
+    padding: 462px 0px;
+}
+
+/*--------- banner end---------- */
+/*---------holiday start---------- */
+.image_holiday{
+    width: 649px;
+    height: 713px;
+    margin-bottom: 358px;
+    margin-top: 319px;
+}
+.holiday_subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #FFC178;
+    margin-top: 364px;
+    text-transform: uppercase;
+}
+.holiday_title{
+    width: 496px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 13px;
+}
+.holiday_pera{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 587px;
+    margin-top: 13px;
+}
+.holiday_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFC178;
+    margin-top: 66px;
+    display: inline-block;
+
+}
+.holiday_all{
+    margin-left: 23px;
+}
+/*--------- holiday end---------- */
+/*--------- Steady start---------- */
+#steady{
+    background: url('../images/steady.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+.steady_subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: #FFC178;
+    text-transform: uppercase;
+    padding-top: 559px;
+}
+.steady_title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 13px;
+    width: 932px;
+    margin-left: 194px;
+}
+.steady_pera{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-left: 213px;
+    width: 893px;
+    text-align: center;
+}
+.steady_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFC178;
+    margin-top: 26px;
+    display: inline-block;
+    padding-bottom: 32px;
+
+}
+/*--------- Steady end---------- */
+/*--------- culture start---------- */
+.image_culture{
+    width: 624px;
+    height: 799px;
+    margin-top: 295px;
+    margin-bottom: 190px;
+    padding-left: 37px;
+}
+.culture_subtitle{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #FFC178;
+    text-transform: uppercase;
+    margin-top: 448px;
+    width: 310px;
+    height: 25px;
+}
+.culture_title{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 19px;
+    width: 663px;
+    height: 261px;
+}
+.culture_pera{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 19px;
+    width: 655px;
+    height: 96px;
+}
+.culture_link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFC178;
+    margin-top: 47px;
+    display: inline-block;
+}
+.culture_all{
+    margin-right: 37px;
+    width: 663px;
+}
+#culture .row{
+    padding-bottom: 190px;
+}
+/*--------- culture end---------- */
+/*--------- futter start---------- */
+.futter_title{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1%;
+    color: #FFFFFF;
+}
+.futter_subtitle{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin-top: 82px;
+    width: 405px;
+}
+.futter_text{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    margin-top:49px ;
+}
+.col-lg-1{
+    margin-top: 34px;
+    padding-bottom: 198px;
+}
+.explore{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+.get{
+    width: 232px;
+    background-color:#FFA343;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+}
+.Services{
+    margin-top: 136px;
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+}
+.Email{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+}
+.Campaigns{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+}
+.Branding{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+}
+.Offline{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+}
+.About{
+    margin-top: 86px;
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    margin-left: 8px;
+}
+.Story{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.Benefits{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.Term{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.Career{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.Help{
+    color: #FFD1A0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    margin-top: 68px;
+    margin-left: 25px;
+}
+.FAQ’S{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.Contact{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.copyright{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+/*--------- futter end---------- */
